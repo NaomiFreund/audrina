@@ -15,5 +15,7 @@ btn. {
     color: white;
     border: 0;
     border-radius: 5px;
-    
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
 }
