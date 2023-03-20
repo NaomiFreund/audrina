@@ -3,6 +3,11 @@
 
  jokeBtn.addEventListener('click', generateJoke)
 
- function generateJoke(){
-    
+ async function generateJoke(){
+    const response = await fetch('http://icanhazdadjoke.com', {
+        headers: {Accept: 'application/json'}
+    })
+
+    const data = await response.json()
+    jokeE1.innerHTML = data.joke
  }
