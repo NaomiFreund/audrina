@@ -6,6 +6,8 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #F8C8DC;
-    text-color: #ffffff;
 }
 
+h3 {
+    text-color: #fff;
+}
