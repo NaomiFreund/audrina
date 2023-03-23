@@ -14,3 +14,7 @@ h3 {
     opacity: 0.5;
     word-spacing: 2px;
 }
+
+a {
+    margin: 20px;
+}
