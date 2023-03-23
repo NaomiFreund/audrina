@@ -6,8 +6,12 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #F8C8DC;
+    letter-spacing: 1px;
 }
 
 h3 {
     text-color: #fff;
+    margin: 0;
+    opacity: 1.0;
+    letter-spacing: 2px;
 }
